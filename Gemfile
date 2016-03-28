@@ -11,4 +11,4 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 # Middleman Gems
 gem 'middleman', '>= 4.0.0'
 
-gem 'middleman-search'
+gem 'middleman-search', '>= 0.7.0'
