@@ -13,4 +13,4 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 # Windows does not come with time zone data
 gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 
-gem "middleman-search", ">= 0.7.0"
+gem "middleman-search", "~> 0.9.0"

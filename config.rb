@@ -8,6 +8,10 @@ activate :search do |search|
 
   search.resources = ['index.html', 'about.html']
 
+  search.language = 'es'
+
+  search.lunr_dirs = ['source/vendor']
+
   search.fields = {
     title:   {boost: 100, store: true, required: true},
     content: {boost: 50},
